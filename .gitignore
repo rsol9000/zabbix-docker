@@ -8,4 +8,4 @@ data/
 .idea/
 
 # Certificados para https
-data/dashboard/certificados/
+#data/dashboard/certificados/*
