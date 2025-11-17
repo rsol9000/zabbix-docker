@@ -1,0 +1,8 @@
+# Docker
+.env
+data/
+*.log
+
+# Editor
+.vscode/
+.idea/
