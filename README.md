@@ -56,12 +56,15 @@ Todos los volúmenes persisten automáticamente entre reinicios.
 
 ---
 
-## **2. Clonar el repositorio**
+## **2. Descargar o Clonar el repositorio**
+
+````bash
+wget https://github.com/rsol9000/zabbix-docker/archive/main.zip -O zabbix-stack.zip
 
 ```bash
 git clone <repository-url>
 cd zabbix-stack
-```
+````
 
 ---
 
