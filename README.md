@@ -19,7 +19,7 @@ Incluye base de datos optimizada, servidor, interfaz web, SNMP traps y agente2 l
 | **Zabbix Agent2**      | 7.4.3   | Agente avanzado para monitoreo del host |
 | **SNMP Trap Receiver** | 7.4.6   | Receptor de traps SNMP puerto 162       |
 
-![Diagrama Zabbix Docker](./diagramas/zabbix-docker.png)
+<img src="./diagramas/zabbix-docker.png" alt="Diagrama Zabbix Docker" width="600">
 
 ---
 
