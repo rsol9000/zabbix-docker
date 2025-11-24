@@ -46,8 +46,7 @@ Incluye base de datos optimizada, servidor, interfaz web, SNMP traps y agente2 l
 | `zabbix_dashboard_config` | Zabbix Web    | Configuración del frontend   |
 | `zabbix_certificados`     | Zabbix Web    | Certificados SSL/TLS         |
 
-Todos los volúmenes persisten automáticamente entre reinicios.
----
+## Todos los volúmenes persisten automáticamente entre reinicios.
 
 # 💾 **Bind Mounts**
 
