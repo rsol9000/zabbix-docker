@@ -47,6 +47,20 @@ Incluye base de datos optimizada, servidor, interfaz web, SNMP traps y agente2 l
 | `zabbix_certificados`     | Zabbix Web    | Certificados SSL/TLS         |
 
 Todos los volúmenes persisten automáticamente entre reinicios.
+---
+
+# 💾 **Bind Mounts**
+
+| Bind Mounts                        | Contenedor       | Uso                            |
+| ---------------------------------- | ---------------- | ------------------------------ |
+| `/backups`                         | PostgreSQL       | Backups de la Base de Datos    |
+| `/usr/lib/zabbix/externalscripts`  | Zabbix Server    | Script externos                |
+| `/usr/lib/zabbix/alertscripts`     | Zabbix Server    | Script para Alertas            |
+| `/usr/share/snmp/mibs`             | Zabbix snmptraps | Mibs externas                  |
+| `/var/lib/zabbix/snmptrapd_config` | Zabbix snmptraps | Configuración de snmptraps     |
+| `/sys`                             | Zabbix Agent2    | Acceso para reporte a Servidor |
+| `/proc`                            | Zabbix Agent2    | Acceso para reporte a Servidor |
+| `/var/run/docker.sock`             | Zabbix Agent2    | Acceso para reporte a Servidor |
 
 ---
 
